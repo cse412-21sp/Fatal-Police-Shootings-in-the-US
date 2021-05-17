@@ -2,7 +2,10 @@
 
 ## Team Members
 
-Place your team member names here.
+Soraya Marashi
+Kyle Sorstokke
+Meher Chand
+Cristian Swift
 
 ### Contribution Statements
 
