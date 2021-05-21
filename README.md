@@ -2,9 +2,9 @@
 
 ## Team Members
 
-Soraya Marashi
-Kyle Sorstokke
-Meher Chand
+Soraya Marashi, 
+Kyle Sorstokke, 
+Meher Chand, 
 Cristian Swift
 
 ### Contribution Statements
@@ -13,7 +13,9 @@ Add individual contribution statements here.
 
 ## Project Proposal Abstract
 
-This is the space for you to add a description for your project.
+We’re interested in exploring cases of police shootings in America. Through our investigation we hope to explore the following: where are the most cases concentrated around the country? To do so we could use ArcGIS and mapping overlays to visualize this. Has bodycam usage changed over time? Visualizations grouping total incidents by year and comparing quantitative values through area or length can answer this question.
+What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables? 
+
 
 ## Getting Started
 
