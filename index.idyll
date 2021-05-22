@@ -13,7 +13,7 @@
    /]
 
 ##Abstract
-We’re interested in exploring cases of police shootings in America. Through our investigation we hope to explore the following: where are the most cases concentrated around the country? Has bodycam usage changed over time? Visualizations grouping total incidents by year and comparing quantitative values through area or length can answer this question. What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables? (Note: screenshots are provided for question 1 and 4 as the interactive elements are still being worked on)
+We’re interested in exploring cases of police shootings in America. Through our investigation we hope to explore the following: where are the most cases concentrated around the country? Has bodycam usage changed over time? Visualizations grouping total incidents by year and comparing quantitative values through area or length can answer this question. What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables? Which cases involved victims with mental health issues? Were they armed? (Note: screenshots are provided for question 1 and 4 as the interactive elements are still being worked on)
 
 #### Question 1 - Where are cases most concentrated?
 ![example](./static/images/shootingsbystate.png)
@@ -25,14 +25,11 @@ Our second question focused on the presence of body cameras during fatal police 
 [TableauEmbed link:"https://public.tableau.com/views/fatalshooting/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"400"/]
 
 
-#### Question 3 - 
+#### Question 3 - What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables?
 
 [TableauEmbed link:"https://public.tableau.com/views/AgeDistByRace/AgeDistWB?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
 [TableauEmbed link:"https://public.tableau.com/views/GenderByRace/Dashboard2?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"400"/]
 
-#### Question 4 - 
-
-![example](./static/images/armed.png)
-
-
+#### Question 4 - Which cases involved victims with mental health issues? Were they armed?
 ![example](./static/images/mentalhealth.png)
+![example](./static/images/armed.png)
