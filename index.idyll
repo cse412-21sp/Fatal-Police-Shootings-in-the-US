@@ -3,7 +3,6 @@
 [Header
   fullWidth:true
   title:" Fatal Police Shootings"
-  subtitle:"CSE412 Final Project"
   author:"Soraya Marashi, Kyle Sorstokke, Meher Chand, Cristian Swift"
   authorLink: "
   https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
@@ -13,7 +12,7 @@
    /]
 
 ##Abstract
-We’re interested in exploring cases of police shootings in America. Through our investigation we hope to explore the following: where are the most cases concentrated around the country? Has bodycam usage changed over time? Visualizations grouping total incidents by year and comparing quantitative values through area or length can answer this question. What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables? Which cases involved victims with mental health issues? Were they armed? (Note: screenshots are provided for question 1 and 4 as the interactive elements are still being worked on)
+We’re interested in exploring cases of police shootings in America. Through our investigation we hope to explore the following: where are the most cases concentrated around the country? Has bodycam usage changed over time? Visualizations grouping total incidents by year and comparing quantitative values through area or length can answer this question. What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables? Which cases involved victims with mental health issues? Were they armed?
 
 #### Question 1 - Where are cases most concentrated?
 ![example](./static/images/shootingsbystate.png)
@@ -27,11 +26,10 @@ While these visualizations show that a plurality of incidents had white victims,
 
 #### Question 3 - Has bodycam usage changed over time?
 
-Our second question focused on the presence of body cameras during fatal police shootings. Have they increased over time? To visualize this, the boolean body cam data is seperated into body cams on and body cams off data. Time is plotted the x axis in months: 
+While investing cases of fatal police shootings, it is clear that having body camera evidence can make a huge difference in the bringing justice to victims involved. The use of body cameras “increase the publics’ trust and confidence in law enforcement as well as bring a quicker resolution, improves officer safety, and prevent crime” as mentioned in a [LA TECH article](https://latech.us/blog/police-weigh-benefits-of-body-cameras-against-public-perception#:~:text=Body%20cameras%20increase%20the%20publics,officer%20safety%2C%20and%20prevents%20crime). Knowing all of the benefits of using body cameras, have the use of them increased over time? To investigate this we plotted all counts of body camera data for fatal shooting cases since 2015 and separated the instances into the body cams being off and on. 
 
 [TableauEmbed link:"https://public.tableau.com/views/fatalshooting/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"600"/]
-
-
+From this visualization we can see that although since 2015 the federal government has provided over [$23 million dollars](https://www.pbs.org/newshour/politics/body-cameras-are-seen-as-key-to-police-reform-but-do-they-increase-accountability) to expand the use of body cams, in theses cases, they were usually turned off. There is slight increase of body cameras being on for more cases in months of widely known cases. This could be attributed to the increased news and public awareness during those moments in time. 
 
 ##### Question 4 - Which cases involved victims with mental health issues? Were they armed?
 Wanting to find out how mental illness impacts patterns in fatal police shootings we decided to first investigate the count 
