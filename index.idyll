@@ -18,18 +18,39 @@ We’re interested in exploring cases of police shootings in America. Through ou
 #### Question 1 - Where are cases most concentrated?
 ![example](./static/images/shootingsbystate.png)
 
-#### Question 2 - Has bodycam usage changed over time?
-
-Our second question focused on the presence of body cameras during fatal police shootings. Have they increased over time? To visualize this, the boolean body cam data is seperated into body cams on and body cams off data. Time is plotted the x axis in months: 
-
-[TableauEmbed link:"https://public.tableau.com/views/fatalshooting/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"400"/]
-
-
-#### Question 3 - What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables?
+#### Question 2 - What is the distribution of shootings across race, gender, and age, and is there a relationship between these variables?
+To better understand the data, we looked at simple demographic information, including race, gender, and age. By comparing the distribution of age and gender for each race, we can gain insight into similarities and/or disparities among police treatment of certain races.
 
 [TableauEmbed link:"https://public.tableau.com/views/AgeDistByRace/AgeDistWB?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
 [TableauEmbed link:"https://public.tableau.com/views/GenderByRace/Dashboard2?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"400"/]
+While these visualizations show that a plurality of incidents had white victims, that is by total incident count only; per capita rates tell a very different story that we do not want to erase. Each race showed similar distributions of age and gender, albeit with a small sample size on some of the data points. The demographics support our assumption that young men would make up the majority of cases. Prior intuition also supports the fact that white victims were slightly more numerous than black victims, despite being a much larger portion of the overall population (per capita rates are clearly not equal).
 
-#### Question 4 - Which cases involved victims with mental health issues? Were they armed?
-![example](./static/images/mentalhealth.png)
-![example](./static/images/armed.png)
+#### Question 3 - Has bodycam usage changed over time?
+
+Our second question focused on the presence of body cameras during fatal police shootings. Have they increased over time? To visualize this, the boolean body cam data is seperated into body cams on and body cams off data. Time is plotted the x axis in months: 
+
+[TableauEmbed link:"https://public.tableau.com/views/fatalshooting/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"600"/]
+
+
+
+##### Question 4 - Which cases involved victims with mental health issues? Were they armed?
+Wanting to find out how mental illness impacts patterns in fatal police shootings we decided to first investigate the count 
+differnce between unarmed and armed individuals along with whether or not they were reported to have signs of mental illness.
+[ObservableEmbed link:"https://observablehq.com/embed/@cristianswift/starting-visulizations?cells=Armed_vs_unarmed_mental_illness_time_use" width:"200%" height:"500"/]
+From the figure above we see that there is significantly more cases of people involved in fatal police shootings that were armed.
+Though it is very important to note that if an individual had any sort of "wepond" they could use, they would be counted as armed.
+For example other than guns, some cases reported to have people being armed with cars, wasp spray, a walking stick, a wrench, and much more.
+Additionally, as we look into the relationships of signs of mental health, it can be noticed that there doesen't seem to be any discrepriancies of significance.
+
+Though lets take a deeper look into this and see if this narrative still lines up when we take into account proportions of these incidents in a figure that uses a normalized range.
+![example](./static/images/Relationship_of_armed_mental_illness.png)
+From this figure we can take a much better look at the relationship between signs of mental health and armed
+status usuing proportion instead of just count of records. Though it does not reveal any variance in the fatal
+shootings of people who have displayed signs of mental illness who were or were not armed.
+
+There weren't any revealing patterns for mental health in regards to armed status, next we will investigate whether or not their are any correlatiions with signs of mental illness and race.
+[ObservableEmbed link:"https://observablehq.com/embed/@cristianswift/starting-visulizations?cells=mental_health_race" width:"150%" height:"300"/]
+
+In this figure you can select differnce races to highlight and veiw the proportion of which that race belongs to from the dataset.
+Most notably white individuals increase in proportion of occurances for fata police shootings when comparing no signs of mental
+illness (false) to individuals with signs of mental illness (true). In general it is observed that other races are subjected to higher ratees of incidents when no signs of mental illnesss are present.
